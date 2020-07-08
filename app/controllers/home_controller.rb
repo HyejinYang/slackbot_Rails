@@ -4,6 +4,5 @@ class HomeController < ApplicationController
             render json: params[:challenge]
         end
         puts response.body
-        request 
     end
 end
